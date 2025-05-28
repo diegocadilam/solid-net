@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace SOLID.SRP.Correct
 {
+    /*    
+     *  Uma classe deve ter um único motivo para mudar.
+     *  Isso significa que uma classe, módulo ou função deve ter apenas uma responsabilidade ou função bem definida dentro de um sistema.
+     */
     internal class Implement
     {
         public void ImplementSRPMethod()

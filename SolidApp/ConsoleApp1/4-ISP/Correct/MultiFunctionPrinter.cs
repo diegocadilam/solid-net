@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace SOLID._4_ISP.Correct
 {
     // Implementação específica
+    //"Nenhum cliente deve ser forçado a depender de métodos que não utiliza."
     public class MultiFunctionPrinter : IPrinter, IScanner, IFax
     {
         public void Print(Document doc) => Console.WriteLine("Printing...");
