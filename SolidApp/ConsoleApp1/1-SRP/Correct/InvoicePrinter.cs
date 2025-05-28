@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID.SRP
+namespace SOLID.SRP.Correct
 {
-    internal class InvoiceRepository
+    internal class InvoicePrinter
     {
-        public void Save(Invoice invoice)
+        public void Print(Invoice invoice)
         {
-            // lógica de persistência no banco
+            // lógica de impressão
         }
     }
 }

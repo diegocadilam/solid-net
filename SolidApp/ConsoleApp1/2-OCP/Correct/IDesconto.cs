@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID.SRP
+namespace SOLID.OCP.Correct
 {
-    internal class Invoice
+    public interface IDesconto
     {
-        public int Id { get; set; }
-        public decimal Amount { get; set; }
+        decimal Calcular(decimal valorCompra);
     }
 }

@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="3-LSP\Incorrect\" />
+    <Folder Include="3-LSP\Correct\" />
+  </ItemGroup>
+
 </Project>

@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID.SRP
+namespace SOLID.SRP.Correct
 {
-    internal class ImplementSRP
+    internal class Implement
     {
-        public void ImplementSRPMethod(){
+        public void ImplementSRPMethod()
+        {
             var invoice = new Invoice { Id = 1, Amount = 100.00m };
 
             var repository = new InvoiceRepository();
